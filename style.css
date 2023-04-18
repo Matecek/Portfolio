@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: rgb(52, 58, 64);
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 960px;
+  box-shadow: 0px 5px 20px 0px rgba(52, 58, 64, 0.06);
+}
+
+.header {
+  background-color: rgb(0, 163, 225);
+  display: flex;
+  align-items: center;
+  height: 110px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.header-profile-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+}
+
+.header-profile {
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+}
+
+.header-profile h1 {
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.header-profile div {
+  letter-spacing: 1px;
+}
+
+.info {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  padding: 35px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.info-picture {
+  margin-right: 35px;
+  width: 50%;
+}
+
+.info-content {
+  width: 50%;
+}
+
+.info h2 {
+  margin: 0;
+}
+
+.info-headline span {
+  color: rgb(0, 163, 225);
+}
+
+.info-signature {
+  width: 130px;
+}
+
+.info-contact {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.info-contact-btn {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: rgb(0, 163, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.info-contact-btn img {
+  width: 22px;
+  margin-right: 8px;
+}
+
+.info-contact-social {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+
+.info-contact-social img {
+  height: 13px;
+}

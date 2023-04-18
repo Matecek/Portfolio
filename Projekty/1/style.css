@@ -1,0 +1,44 @@
+ body{
+  background-color: #ffffff;
+	color: #efefef;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  box-sizing: border-box;
+
+}
+
+header{
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #2F3336;
+}
+
+footer{
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #011222;
+}
+
+.p1{
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.text-gray{
+  color: #777777 !important;
+}
+
+main{
+  background-color: #ffffff;
+  min-height: 500px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.blue-center{
+  min-height: 200px;
+  transform: translate(0,-15%);
+}
+
